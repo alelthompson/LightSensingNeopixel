@@ -1,6 +1,14 @@
 // IO&E Project 1 
 // Thompson & Truong 
 
+// Light Sensor Code from OSEPP
+//https://www.osepp.com/electronic-modules/sensor-modules/69-light-sensor-module
+
+// Neopixel Strip Functions from Adafruit
+// https://learn.adafruit.com/feather-weather-lamp/overview?fbclid=IwAR2PHA2jHE0N1A3lVMtL0SDbWi_cgaHtE97_4G-8ZD5h9__IGsL8mNqMRpA
+
+
+
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
   #include <avr/power.h>
